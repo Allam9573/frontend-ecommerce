@@ -32,7 +32,7 @@
                 <h2 class="mt-5">Lista de Productos:</h2>
                 <form action="">
                     <select name="" id="" class="form-control">
-                        <option value="">Buscar por categoria</option>
+                        <option value="">Todas las categorias</option>
                         @foreach ($categorias as $categoria)
                             <option value="{{ $categoria['idCategoria'] }}">{{ $categoria['nombre'] }}</option>
                         @endforeach
